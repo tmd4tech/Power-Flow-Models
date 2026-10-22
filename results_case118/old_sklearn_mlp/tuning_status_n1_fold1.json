@@ -1,0 +1,52 @@
+{
+  "best": {
+    "hidden_layer_sizes": [
+      256,
+      256
+    ],
+    "learning_rate_init": 0.0003
+  },
+  "validation": "held-out training outages [4, 10, 17, 21, 26, 27, 29, 32, 38, 39, 43, 46, 50, 54, 68, 69, 70, 71, 72, 83, 84, 91, 92, 93, 105, 106, 107, 109, 111, 116, 120, 126, 127, 130, 132, 142, 143, 146, 147, 149, 153, 159, 161, 169, 175, 176, 177]",
+  "trials": [
+    {
+      "params": {
+        "hidden_layer_sizes": [
+          128,
+          128
+        ],
+        "learning_rate_init": 0.001
+      },
+      "val_mse": 0.08698923156487022
+    },
+    {
+      "params": {
+        "hidden_layer_sizes": [
+          128,
+          128
+        ],
+        "learning_rate_init": 0.0003
+      },
+      "val_mse": 0.07689637941230329
+    },
+    {
+      "params": {
+        "hidden_layer_sizes": [
+          256,
+          256
+        ],
+        "learning_rate_init": 0.001
+      },
+      "val_mse": 0.0857740872868418
+    },
+    {
+      "params": {
+        "hidden_layer_sizes": [
+          256,
+          256
+        ],
+        "learning_rate_init": 0.0003
+      },
+      "val_mse": 0.07643135022701986
+    }
+  ]
+}

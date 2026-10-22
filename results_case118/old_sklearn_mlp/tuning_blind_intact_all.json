@@ -1,0 +1,52 @@
+{
+  "best": {
+    "hidden_layer_sizes": [
+      256,
+      256
+    ],
+    "learning_rate_init": 0.001
+  },
+  "validation": "sample-level validation set",
+  "trials": [
+    {
+      "params": {
+        "hidden_layer_sizes": [
+          128,
+          128
+        ],
+        "learning_rate_init": 0.001
+      },
+      "val_mse": 1.1172559803031406
+    },
+    {
+      "params": {
+        "hidden_layer_sizes": [
+          128,
+          128
+        ],
+        "learning_rate_init": 0.0003
+      },
+      "val_mse": 1.094103783767951
+    },
+    {
+      "params": {
+        "hidden_layer_sizes": [
+          256,
+          256
+        ],
+        "learning_rate_init": 0.001
+      },
+      "val_mse": 0.45140871663224963
+    },
+    {
+      "params": {
+        "hidden_layer_sizes": [
+          256,
+          256
+        ],
+        "learning_rate_init": 0.0003
+      },
+      "val_mse": 0.9680137789189666
+    }
+  ]
+}
