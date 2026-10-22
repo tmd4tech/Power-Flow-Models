@@ -1,0 +1,14 @@
+{
+  "intact_ac": {
+    "seconds_per_case": 0.00012308170974946063
+  },
+  "dc": {
+    "seconds_per_case": 0.0009211453699899552
+  },
+  "dc_inc": {
+    "seconds_per_case": 0.00015488715361227474
+  },
+  "fdlf1": {
+    "seconds_per_case": 0.00022417739022998571
+  }
+}
