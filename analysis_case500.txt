@@ -1,0 +1,356 @@
+135 runs. Mean ± std over folds x seeds.
+
+regime       model  test set        |V| err (p.u.)   angle err (deg)   viol recall   precision
+blind_intact linear test_id         0.0002 ± 0.0000      0.039 ± 0.000     nan ± nan   0.00 ± 0.00
+blind_intact linear test_seen       0.0005 ± 0.0000      0.181 ± 0.007    0.41 ± 0.01   0.03 ± 0.00
+blind_intact linear test_unseen     0.0005 ± 0.0000      0.181 ± 0.030    0.41 ± 0.02   0.03 ± 0.00
+blind_intact mlp    test_id         0.0002 ± 0.0000      0.039 ± 0.000     nan ± nan   0.00 ± 0.00
+blind_intact mlp    test_seen       0.0005 ± 0.0000      0.181 ± 0.007    0.41 ± 0.01   0.03 ± 0.00
+blind_intact mlp    test_unseen     0.0005 ± 0.0000      0.181 ± 0.030    0.41 ± 0.02   0.03 ± 0.00
+blind_n1     linear test_id         0.0006 ± 0.0001      0.399 ± 0.046     nan ± nan   0.00 ± 0.00
+blind_n1     linear test_seen       0.0008 ± 0.0001      0.552 ± 0.060    0.31 ± 0.01   0.02 ± 0.00
+blind_n1     linear test_unseen     0.0008 ± 0.0001      0.552 ± 0.051    0.31 ± 0.02   0.02 ± 0.00
+blind_n1     mlp    test_id         0.0006 ± 0.0001      0.399 ± 0.046     nan ± nan   0.00 ± 0.00
+blind_n1     mlp    test_seen       0.0008 ± 0.0001      0.552 ± 0.060    0.31 ± 0.01   0.02 ± 0.00
+blind_n1     mlp    test_unseen     0.0008 ± 0.0001      0.552 ± 0.051    0.31 ± 0.02   0.02 ± 0.00
+status_n1    linear test_id         0.0003 ± 0.0000      0.145 ± 0.016     nan ± nan   0.00 ± 0.00
+status_n1    linear test_seen       0.0005 ± 0.0000      0.177 ± 0.019    0.78 ± 0.02   0.05 ± 0.00
+status_n1    linear test_unseen     0.0006 ± 0.0000      0.254 ± 0.027    0.44 ± 0.02   0.03 ± 0.00
+status_n1    mlp    test_id         0.0003 ± 0.0000      0.145 ± 0.015     nan ± nan   0.00 ± 0.00
+status_n1    mlp    test_seen       0.0005 ± 0.0000      0.177 ± 0.019    0.78 ± 0.02   0.05 ± 0.00
+status_n1    mlp    test_unseen     0.0006 ± 0.0000      0.254 ± 0.027    0.44 ± 0.03   0.03 ± 0.00
+hybrid_n1    linear test_id         0.0001 ± 0.0000      0.016 ± 0.002     nan ± nan   0.00 ± 0.00
+hybrid_n1    linear test_seen       0.0002 ± 0.0000      0.021 ± 0.003    0.65 ± 0.03   0.13 ± 0.00
+hybrid_n1    linear test_unseen     0.0002 ± 0.0000      0.031 ± 0.003    0.56 ± 0.06   0.11 ± 0.01
+hybrid_n1    mlp    test_id         0.0003 ± 0.0001      0.012 ± 0.001     nan ± nan   0.00 ± 0.00
+hybrid_n1    mlp    test_seen       0.0004 ± 0.0001      0.016 ± 0.002    0.69 ± 0.03   0.05 ± 0.00
+hybrid_n1    mlp    test_unseen     0.0005 ± 0.0001      0.025 ± 0.002    0.59 ± 0.05   0.04 ± 0.01
+hybridv_n1   linear test_id         0.0002 ± 0.0000      0.000 ± 0.000     nan ± nan   0.00 ± 0.00
+hybridv_n1   linear test_seen       0.0002 ± 0.0000      0.032 ± 0.001    0.64 ± 0.01   0.13 ± 0.00
+hybridv_n1   linear test_unseen     0.0002 ± 0.0000      0.032 ± 0.004    0.55 ± 0.05   0.11 ± 0.01
+hybridv_n1   mlp    test_id         0.0004 ± 0.0001      0.000 ± 0.000     nan ± nan   0.00 ± 0.00
+hybridv_n1   mlp    test_seen       0.0005 ± 0.0001      0.032 ± 0.001    0.69 ± 0.02   0.05 ± 0.00
+hybridv_n1   mlp    test_unseen     0.0005 ± 0.0001      0.032 ± 0.004    0.58 ± 0.05   0.04 ± 0.01
+gnn_n1       gnn    test_id         0.0003 ± 0.0000      0.087 ± 0.015     nan ± nan   0.00 ± 0.00
+gnn_n1       gnn    test_seen       0.0005 ± 0.0001      0.184 ± 0.020    0.17 ± 0.07   0.03 ± 0.01
+gnn_n1       gnn    test_unseen     0.0005 ± 0.0000      0.191 ± 0.026    0.14 ± 0.06   0.02 ± 0.01
+physics      intact_actest_id         0.0000 ± 0.0000      0.000 ± 0.000     nan ± nan    nan ± nan
+physics      intact_actest_seen       0.0003 ± 0.0000      0.167 ± 0.007    0.00 ± 0.00    nan ± nan
+physics      intact_actest_unseen     0.0003 ± 0.0000      0.167 ± 0.029    0.00 ± 0.00    nan ± nan
+physics      dc     test_id         0.0426 ± 0.0000      2.434 ± 0.000     nan ± nan    nan ± nan
+physics      dc     test_seen       0.0422 ± 0.0000      2.568 ± 0.001    0.00 ± 0.00    nan ± nan
+physics      dc     test_unseen     0.0422 ± 0.0000      2.568 ± 0.005    0.00 ± 0.00    nan ± nan
+physics      dc_inc test_id         0.0000 ± 0.0000      0.000 ± 0.000     nan ± nan    nan ± nan
+physics      dc_inc test_seen       0.0003 ± 0.0000      0.042 ± 0.001    0.00 ± 0.00    nan ± nan
+physics      dc_inc test_unseen     0.0003 ± 0.0000      0.042 ± 0.005    0.00 ± 0.00    nan ± nan
+physics      fdlf1  test_id         0.0000 ± 0.0000      0.000 ± 0.000     nan ± nan    nan ± nan
+physics      fdlf1  test_seen       0.0002 ± 0.0000      0.032 ± 0.001    0.82 ± 0.01   0.37 ± 0.01
+physics      fdlf1  test_unseen     0.0002 ± 0.0000      0.032 ± 0.004    0.82 ± 0.03   0.37 ± 0.02
+
+Severity vs. detection on unseen outages (one point per outage):
+  Spearman correlation between the outage's true violation count and recall.
+  blind_intact linear  rho = +0.25 (p = 0.000, 421 outages); worst: line 32 at 0% recall
+  blind_intact mlp     rho = +0.25 (p = 0.000, 421 outages); worst: line 32 at 0% recall
+  blind_n1     linear  rho = +0.25 (p = 0.000, 421 outages); worst: line 7 at 0% recall
+  blind_n1     mlp     rho = +0.25 (p = 0.000, 421 outages); worst: line 7 at 0% recall
+  gnn_n1       gnn     rho = +0.43 (p = 0.000, 421 outages); worst: line 32 at 0% recall
+  hybrid_n1    linear  rho = +0.13 (p = 0.010, 421 outages); worst: line 104 at 0% recall
+  hybrid_n1    mlp     rho = -0.04 (p = 0.442, 421 outages); worst: line 258 at 0% recall
+  hybridv_n1   linear  rho = +0.13 (p = 0.010, 421 outages); worst: line 104 at 0% recall
+  hybridv_n1   mlp     rho = -0.00 (p = 0.998, 421 outages); worst: line 104 at 0% recall
+  physics      dc      rho = +nan (p = nan, 421 outages); worst: line 7 at 0% recall
+  physics      dc_inc  rho = +nan (p = nan, 421 outages); worst: line 7 at 0% recall
+  physics      fdlf1   rho = -0.35 (p = 0.000, 421 outages); worst: line 171 at 0% recall
+  physics      intact_ac rho = +nan (p = nan, 421 outages); worst: line 7 at 0% recall
+  status_n1    linear  rho = -0.17 (p = 0.001, 421 outages); worst: line 32 at 0% recall
+  status_n1    mlp     rho = -0.17 (p = 0.001, 421 outages); worst: line 32 at 0% recall
+
+Saved results/summary.csv and results/by_line.csv
+Case-level classification: recall / false-alarm rate (mean over folds x seeds)
+regime       model  test set               V_any       V_serious       T_serious         serious  non-conv. caught
+blind_intact linear test_seen        1.00 / 1.00     0.00 / 0.00     0.00 / 0.00     0.00 / 0.00     0.00 (13.6/run)
+blind_intact linear test_unseen      1.00 / 1.00     0.00 / 0.00     0.00 / 0.00     0.00 / 0.00     0.00 (3.4/run)
+blind_intact mlp    test_seen        1.00 / 1.00     0.00 / 0.00     0.00 / 0.00     0.00 / 0.00     0.00 (13.6/run)
+blind_intact mlp    test_unseen      1.00 / 1.00     0.00 / 0.00     0.00 / 0.00     0.00 / 0.00     0.00 (3.4/run)
+blind_n1     linear test_seen        1.00 / 1.00     0.00 / 0.00     0.00 / 0.00     0.00 / 0.00     0.00 (13.6/run)
+blind_n1     linear test_unseen      1.00 / 1.00     0.00 / 0.00     0.00 / 0.00     0.00 / 0.00     0.00 (3.4/run)
+blind_n1     mlp    test_seen        1.00 / 1.00     0.00 / 0.00     0.00 / 0.00     0.00 / 0.00     0.00 (13.6/run)
+blind_n1     mlp    test_unseen      1.00 / 1.00     0.00 / 0.00     0.00 / 0.00     0.00 / 0.00     0.00 (3.4/run)
+status_n1    linear test_seen        1.00 / 1.00     0.83 / 0.00     0.83 / 0.00     0.85 / 0.00     0.82 (13.6/run)
+status_n1    linear test_unseen      1.00 / 1.00     0.00 / 0.00     0.00 / 0.00     0.00 / 0.00     0.00 (3.4/run)
+status_n1    mlp    test_seen        1.00 / 1.00     0.83 / 0.00     0.84 / 0.00     0.85 / 0.00     0.82 (13.6/run)
+status_n1    mlp    test_unseen      1.00 / 1.00     0.00 / 0.00     0.00 / 0.00     0.00 / 0.00     0.00 (3.4/run)
+hybrid_n1    linear test_seen        0.99 / 0.98     0.93 / 0.00     0.99 / 0.00     0.96 / 0.00     1.00 (13.6/run)
+hybrid_n1    linear test_unseen      0.99 / 0.99     0.79 / 0.00     0.96 / 0.00     0.90 / 0.00     1.00 (3.4/run)
+hybrid_n1    mlp    test_seen        1.00 / 1.00     0.98 / 0.15     0.99 / 0.01     0.98 / 0.14     1.00 (13.6/run)
+hybrid_n1    mlp    test_unseen      1.00 / 1.00     0.90 / 0.14     0.97 / 0.01     0.94 / 0.14     1.00 (3.4/run)
+hybridv_n1   linear test_seen        1.00 / 0.99     0.92 / 0.00     0.97 / 0.00     0.95 / 0.00     1.00 (13.6/run)
+hybridv_n1   linear test_unseen      0.99 / 0.99     0.79 / 0.00     0.97 / 0.00     0.90 / 0.00     0.97 (3.4/run)
+hybridv_n1   mlp    test_seen        1.00 / 1.00     0.99 / 0.18     0.97 / 0.01     0.99 / 0.17     1.00 (13.6/run)
+hybridv_n1   mlp    test_unseen      1.00 / 1.00     0.90 / 0.17     0.97 / 0.01     0.95 / 0.16     1.00 (3.4/run)
+gnn_n1       gnn    test_seen        0.96 / 0.96     0.42 / 0.00     0.33 / 0.06     0.40 / 0.06     0.34 (13.6/run)
+gnn_n1       gnn    test_unseen      0.96 / 0.96     0.19 / 0.00     0.21 / 0.09     0.29 / 0.09     0.17 (3.4/run)
+physics      intact_actest_seen        0.00 / 0.00     0.00 / 0.00     0.00 / 0.00     0.00 / 0.00     0.00 (13.6/run)
+physics      intact_actest_unseen      0.00 / 0.00     0.00 / 0.00     0.00 / 0.00     0.00 / 0.00     0.00 (3.4/run)
+physics      dc     test_seen        0.00 / 0.00     0.00 / 0.00     1.00 / 1.00     1.00 / 1.00     1.00 (13.6/run)
+physics      dc     test_unseen      0.00 / 0.00     0.00 / 0.00     1.00 / 1.00     1.00 / 1.00     1.00 (3.4/run)
+physics      dc_inc test_seen        0.00 / 0.00     0.00 / 0.00     0.76 / 0.00     0.38 / 0.00     0.76 (13.6/run)
+physics      dc_inc test_unseen      0.00 / 0.00     0.00 / 0.00     0.77 / 0.00     0.39 / 0.00     0.50 (3.4/run)
+physics      fdlf1  test_seen        0.96 / 0.45     0.80 / 0.00     0.97 / 0.00     0.90 / 0.00     0.95 (13.6/run)
+physics      fdlf1  test_unseen      0.96 / 0.45     0.77 / 0.00     0.97 / 0.00     0.89 / 0.00     0.97 (3.4/run)
+  prevalence (share of cases insecure), unseen: V_any 0.38, V_serious 0.04, T_serious 0.03, serious 0.07
+
+Contingency ranking within each base case (mean over base cases, then runs)
+regime       model  test set     V: Spearman  V: top-3  T: Spearman  T: top-3
+blind_intact linear test_seen           0.00      0.01         0.02      0.00
+blind_intact linear test_unseen         0.00      0.03        -0.01      0.02
+blind_intact mlp    test_seen           0.00      0.01         0.02      0.53
+blind_intact mlp    test_unseen         0.00      0.03        -0.02      0.05
+blind_n1     linear test_seen           0.00      0.01         0.02      0.00
+blind_n1     linear test_unseen         0.00      0.03        -0.01      0.02
+blind_n1     mlp    test_seen          -0.00      0.01         0.02      0.40
+blind_n1     mlp    test_unseen         0.00      0.03        -0.03      0.10
+status_n1    linear test_seen           0.96      0.24         0.92      0.25
+status_n1    linear test_unseen         0.00      0.03        -0.01      0.02
+status_n1    mlp    test_seen           0.96      0.24         0.92      0.25
+status_n1    mlp    test_unseen        -0.00      0.03        -0.03      0.06
+hybrid_n1    linear test_seen           0.84      1.00         0.85      0.95
+hybrid_n1    linear test_unseen         0.72      0.98         0.76      0.99
+hybrid_n1    mlp    test_seen           0.83      0.98         0.67      0.96
+hybrid_n1    mlp    test_unseen         0.71      0.97         0.61      0.96
+hybridv_n1   linear test_seen           0.84      0.99         0.86      0.89
+hybridv_n1   linear test_unseen         0.74      0.98         0.86      0.99
+hybridv_n1   mlp    test_seen           0.84      0.99         0.85      0.96
+hybridv_n1   mlp    test_unseen         0.74      0.98         0.84      0.98
+gnn_n1       gnn    test_seen           0.06      0.09         0.08      0.26
+gnn_n1       gnn    test_unseen         0.02      0.17         0.02      0.27
+physics      intact_actest_seen           0.00      0.01         0.02      0.00
+physics      intact_actest_unseen         0.00      0.03        -0.01      0.02
+physics      dc     test_seen           0.00      0.01         0.00      0.00
+physics      dc     test_unseen         0.00      0.03         0.00      0.00
+physics      dc_inc test_seen           0.00      0.01         0.83      0.69
+physics      dc_inc test_unseen         0.00      0.03         0.83      0.79
+physics      fdlf1  test_seen           0.65      0.82         0.92      0.81
+physics      fdlf1  test_unseen         0.65      0.94         0.92      0.99
+
+Saved results/case_summary.csv
+  processed 1/135 runs  processed 2/135 runs  processed 3/135 runs  processed 4/135 runs  processed 5/135 runs  processed 6/135 runs  processed 7/135 runs  processed 8/135 runs  processed 9/135 runs  processed 10/135 runs  processed 11/135 runs  processed 12/135 runs  processed 13/135 runs  processed 14/135 runs  processed 15/135 runs  processed 16/135 runs  processed 17/135 runs  processed 18/135 runs  processed 19/135 runs  processed 20/135 runs  processed 21/135 runs  processed 22/135 runs  processed 23/135 runs  processed 24/135 runs  processed 25/135 runs  processed 26/135 runs  processed 27/135 runs  processed 28/135 runs  processed 29/135 runs  processed 30/135 runs  processed 31/135 runs  processed 32/135 runs  processed 33/135 runs  processed 34/135 runs  processed 35/135 runs  processed 36/135 runs  processed 37/135 runs  processed 38/135 runs  processed 39/135 runs  processed 40/135 runs  processed 41/135 runs  processed 42/135 runs  processed 43/135 runs  processed 44/135 runs  processed 45/135 runs  processed 46/135 runs  processed 47/135 runs  processed 48/135 runs  processed 49/135 runs  processed 50/135 runs  processed 51/135 runs  processed 52/135 runs  processed 53/135 runs  processed 54/135 runs  processed 55/135 runs  processed 56/135 runs  processed 57/135 runs  processed 58/135 runs  processed 59/135 runs  processed 60/135 runs  processed 61/135 runs  processed 62/135 runs  processed 63/135 runs  processed 64/135 runs  processed 65/135 runs  processed 66/135 runs  processed 67/135 runs  processed 68/135 runs  processed 69/135 runs  processed 70/135 runs  processed 71/135 runs  processed 72/135 runs  processed 73/135 runs  processed 74/135 runs  processed 75/135 runs  processed 76/135 runs  processed 77/135 runs  processed 78/135 runs  processed 79/135 runs  processed 80/135 runs  processed 81/135 runs  processed 82/135 runs  processed 83/135 runs  processed 84/135 runs  processed 85/135 runs  processed 86/135 runs  processed 87/135 runs  processed 88/135 runs  processed 89/135 runs  processed 90/135 runs  processed 91/135 runs  processed 92/135 runs  processed 93/135 runs  processed 94/135 runs  processed 95/135 runs  processed 96/135 runs  processed 97/135 runs  processed 98/135 runs  processed 99/135 runs  processed 100/135 runs  processed 101/135 runs  processed 102/135 runs  processed 103/135 runs  processed 104/135 runs  processed 105/135 runs  processed 106/135 runs  processed 107/135 runs  processed 108/135 runs  processed 109/135 runs  processed 110/135 runs  processed 111/135 runs  processed 112/135 runs  processed 113/135 runs  processed 114/135 runs  processed 115/135 runs  processed 116/135 runs  processed 117/135 runs  processed 118/135 runs  processed 119/135 runs  processed 120/135 runs  processed 121/135 runs  processed 122/135 runs  processed 123/135 runs  processed 124/135 runs  processed 125/135 runs  processed 126/135 runs  processed 127/135 runs  processed 128/135 runs  processed 129/135 runs  processed 130/135 runs  processed 131/135 runs  processed 132/135 runs  processed 133/135 runs  processed 134/135 runs  processed 135/135 runs
+
+95% CIs (two-way bootstrap over 218 test base cases x 587 outages, B=2000)
+regime       model  test set              serious recall            bus recall                rank_V
+blind_intact linear test_seen       0.00 [0.00, 0.00]    0.41 [0.29, 0.53]    0.00 [0.00, 0.00]
+blind_intact linear test_unseen     0.00 [0.00, 0.00]    0.41 [0.29, 0.53]    0.00 [0.00, 0.00]
+blind_intact mlp    test_seen       0.00 [0.00, 0.00]    0.41 [0.29, 0.53]    0.00 [0.00, 0.00]
+blind_intact mlp    test_unseen     0.00 [0.00, 0.00]    0.41 [0.29, 0.53]    0.00 [0.00, 0.00]
+blind_n1     linear test_seen       0.00 [0.00, 0.00]    0.31 [0.22, 0.40]    0.00 [0.00, 0.00]
+blind_n1     linear test_unseen     0.00 [0.00, 0.00]    0.31 [0.23, 0.40]    0.00 [0.00, 0.00]
+blind_n1     mlp    test_seen       0.00 [0.00, 0.00]    0.31 [0.22, 0.40]   -0.00 [-0.00, 0.00]
+blind_n1     mlp    test_unseen     0.00 [0.00, 0.00]    0.31 [0.23, 0.40]    0.00 [0.00, 0.00]
+status_n1    linear test_seen       0.85 [0.77, 0.91]    0.78 [0.69, 0.85]    0.96 [0.95, 0.98]
+status_n1    linear test_unseen     0.00 [0.00, 0.00]    0.44 [0.31, 0.58]    0.00 [0.00, 0.00]
+status_n1    mlp    test_seen       0.85 [0.77, 0.91]    0.78 [0.69, 0.85]    0.96 [0.95, 0.98]
+status_n1    mlp    test_unseen     0.00 [0.00, 0.00]    0.44 [0.31, 0.58]   -0.00 [-0.00, 0.00]
+hybrid_n1    linear test_seen       0.96 [0.93, 0.99]    0.65 [0.56, 0.74]    0.84 [0.83, 0.86]
+hybrid_n1    linear test_unseen     0.91 [0.84, 0.97]    0.56 [0.49, 0.64]    0.72 [0.71, 0.73]
+hybrid_n1    mlp    test_seen       0.98 [0.97, 1.00]    0.69 [0.63, 0.76]    0.83 [0.81, 0.85]
+hybrid_n1    mlp    test_unseen     0.95 [0.91, 0.98]    0.59 [0.53, 0.65]    0.71 [0.69, 0.73]
+hybridv_n1   linear test_seen       0.95 [0.91, 0.98]    0.64 [0.55, 0.72]    0.84 [0.82, 0.85]
+hybridv_n1   linear test_unseen     0.91 [0.83, 0.97]    0.56 [0.48, 0.63]    0.74 [0.73, 0.75]
+hybridv_n1   mlp    test_seen       0.99 [0.97, 1.00]    0.69 [0.63, 0.75]    0.84 [0.82, 0.86]
+hybridv_n1   mlp    test_unseen     0.96 [0.93, 0.99]    0.58 [0.53, 0.64]    0.74 [0.71, 0.76]
+gnn_n1       gnn    test_seen       0.40 [0.35, 0.44]    0.17 [0.11, 0.23]    0.06 [0.04, 0.07]
+gnn_n1       gnn    test_unseen     0.29 [0.20, 0.39]    0.14 [0.09, 0.20]    0.02 [-0.00, 0.05]
+physics      intact_actest_seen       0.00 [0.00, 0.00]    0.00 [0.00, 0.00]    0.00 [0.00, 0.00]
+physics      intact_actest_unseen     0.00 [0.00, 0.00]    0.00 [0.00, 0.00]    0.00 [0.00, 0.00]
+physics      dc     test_seen       1.00 [1.00, 1.00]    0.00 [0.00, 0.00]    0.00 [0.00, 0.00]
+physics      dc     test_unseen     1.00 [1.00, 1.00]    0.00 [0.00, 0.00]    0.00 [0.00, 0.00]
+physics      dc_inc test_seen       0.38 [0.23, 0.53]    0.00 [0.00, 0.00]    0.00 [0.00, 0.00]
+physics      dc_inc test_unseen     0.38 [0.23, 0.53]    0.00 [0.00, 0.00]    0.00 [0.00, 0.00]
+physics      fdlf1  test_seen       0.90 [0.82, 0.96]    0.82 [0.76, 0.87]    0.65 [0.64, 0.66]
+physics      fdlf1  test_unseen     0.90 [0.82, 0.96]    0.82 [0.76, 0.87]    0.65 [0.64, 0.66]
+
+Variance decomposition, serious recall on unseen outages (fold SD vs seed SD)
+  blind_intact linear  mean 0.000  fold SD 0.000  seed SD n/a (deterministic)
+  blind_intact mlp     mean 0.000  fold SD 0.000  seed SD 0.000
+  blind_n1     linear  mean 0.000  fold SD 0.000  seed SD n/a (deterministic)
+  blind_n1     mlp     mean 0.000  fold SD 0.000  seed SD 0.000
+  status_n1    linear  mean 0.000  fold SD 0.000  seed SD n/a (deterministic)
+  status_n1    mlp     mean 0.000  fold SD 0.000  seed SD 0.000
+  hybrid_n1    linear  mean 0.896  fold SD 0.082  seed SD n/a (deterministic)
+  hybrid_n1    mlp     mean 0.943  fold SD 0.043  seed SD 0.025
+  hybridv_n1   linear  mean 0.897  fold SD 0.079  seed SD n/a (deterministic)
+  hybridv_n1   mlp     mean 0.954  fold SD 0.037  seed SD 0.011
+  gnn_n1       gnn     mean 0.293  fold SD 0.199  seed SD 0.159
+  physics      intact_ac mean 0.000  fold SD 0.000  seed SD n/a (deterministic)
+  physics      dc      mean 1.000  fold SD 0.000  seed SD n/a (deterministic)
+  physics      dc_inc  mean 0.385  fold SD 0.180  seed SD n/a (deterministic)
+  physics      fdlf1   mean 0.888  fold SD 0.080  seed SD n/a (deterministic)
+
+Paired comparisons (difference, 95% CI, two-sided bootstrap p)
+  status_n1/mlp - status_n1/linear          test_seen      serious_recall +0.000 [+0.000, +0.001]  p=1.0000
+  status_n1/mlp - status_n1/linear          test_seen      serious_false_alarm+0.000 [+0.000, +0.000]  p=1.0000
+  status_n1/mlp - status_n1/linear          test_seen      rank_V         +0.000 [-0.000, +0.000]  p=0.2940
+  status_n1/mlp - status_n1/linear          test_unseen    serious_recall +0.000 [+0.000, +0.000]  p=1.0000
+  status_n1/mlp - status_n1/linear          test_unseen    serious_false_alarm+0.000 [+0.000, +0.000]  p=1.0000
+  status_n1/mlp - status_n1/linear          test_unseen    rank_V         -0.000 [-0.001, +0.001]  p=0.9350
+  status_n1/mlp - blind_n1/mlp              test_seen      serious_recall +0.848 [+0.767, +0.914]  p<0.0005
+  status_n1/mlp - blind_n1/mlp              test_seen      serious_false_alarm+0.004 [+0.002, +0.006]  p<0.0005
+  status_n1/mlp - blind_n1/mlp              test_seen      rank_V         +0.962 [+0.947, +0.975]  p<0.0005
+  status_n1/mlp - blind_n1/mlp              test_unseen    serious_recall +0.000 [+0.000, +0.000]  p=1.0000
+  status_n1/mlp - blind_n1/mlp              test_unseen    serious_false_alarm+0.000 [+0.000, +0.000]  p=1.0000
+  status_n1/mlp - blind_n1/mlp              test_unseen    rank_V         -0.000 [-0.001, +0.001]  p=0.7000
+  status_n1/linear - blind_n1/linear        test_seen      serious_recall +0.848 [+0.767, +0.914]  p<0.0005
+  status_n1/linear - blind_n1/linear        test_seen      serious_false_alarm+0.004 [+0.002, +0.006]  p<0.0005
+  status_n1/linear - blind_n1/linear        test_seen      rank_V         +0.962 [+0.946, +0.975]  p<0.0005
+  status_n1/linear - blind_n1/linear        test_unseen    serious_recall +0.000 [+0.000, +0.000]  p=1.0000
+  status_n1/linear - blind_n1/linear        test_unseen    serious_false_alarm+0.000 [+0.000, +0.000]  p=1.0000
+  status_n1/linear - blind_n1/linear        test_unseen    rank_V         +0.000 [+0.000, +0.000]  p=1.0000
+  blind_n1/mlp - blind_intact/mlp           test_seen      serious_recall +0.000 [+0.000, +0.000]  p=1.0000
+  blind_n1/mlp - blind_intact/mlp           test_seen      serious_false_alarm+0.000 [+0.000, +0.000]  p=1.0000
+  blind_n1/mlp - blind_intact/mlp           test_seen      rank_V         -0.001 [-0.003, +0.001]  p=0.7760
+  blind_n1/mlp - blind_intact/mlp           test_unseen    serious_recall +0.000 [+0.000, +0.000]  p=1.0000
+  blind_n1/mlp - blind_intact/mlp           test_unseen    serious_false_alarm+0.000 [+0.000, +0.000]  p=1.0000
+  blind_n1/mlp - blind_intact/mlp           test_unseen    rank_V         +0.000 [+0.000, +0.000]  p=0.7610
+  physics/fdlf1 - status_n1/mlp             test_seen      serious_recall +0.052 [-0.031, +0.129]  p=0.2010
+  physics/fdlf1 - status_n1/mlp             test_seen      serious_false_alarm-0.001 [-0.004, +0.002]  p=0.5970
+  physics/fdlf1 - status_n1/mlp             test_seen      rank_V         -0.313 [-0.332, -0.290]  p<0.0005
+  physics/fdlf1 - status_n1/mlp             test_unseen    serious_recall +0.900 [+0.821, +0.960]  p<0.0005
+  physics/fdlf1 - status_n1/mlp             test_unseen    serious_false_alarm+0.003 [+0.001, +0.005]  p<0.0005
+  physics/fdlf1 - status_n1/mlp             test_unseen    rank_V         +0.648 [+0.637, +0.658]  p<0.0005
+  physics/dc_inc - status_n1/mlp            test_seen      serious_recall -0.471 [-0.647, -0.288]  p<0.0005
+  physics/dc_inc - status_n1/mlp            test_seen      serious_false_alarm+0.000 [-0.003, +0.005]  p=0.8690
+  physics/dc_inc - status_n1/mlp            test_seen      rank_V         -0.962 [-0.975, -0.946]  p<0.0005
+  physics/dc_inc - status_n1/mlp            test_unseen    serious_recall +0.378 [+0.233, +0.528]  p<0.0005
+  physics/dc_inc - status_n1/mlp            test_unseen    serious_false_alarm+0.004 [+0.001, +0.008]  p=0.0010
+  physics/dc_inc - status_n1/mlp            test_unseen    rank_V         +0.000 [-0.001, +0.001]  p=0.9350
+  physics/fdlf1 - physics/dc_inc            test_seen      serious_recall +0.522 [+0.370, +0.676]  p<0.0005
+  physics/fdlf1 - physics/dc_inc            test_seen      serious_false_alarm-0.001 [-0.004, +0.001]  p=0.3690
+  physics/fdlf1 - physics/dc_inc            test_seen      rank_V         +0.649 [+0.639, +0.659]  p<0.0005
+  physics/fdlf1 - physics/dc_inc            test_unseen    serious_recall +0.522 [+0.370, +0.676]  p<0.0005
+  physics/fdlf1 - physics/dc_inc            test_unseen    serious_false_alarm-0.001 [-0.004, +0.001]  p=0.3690
+  physics/fdlf1 - physics/dc_inc            test_unseen    rank_V         +0.648 [+0.638, +0.658]  p<0.0005
+  blind_n1/mlp - physics/intact_ac          test_seen      serious_recall +0.000 [+0.000, +0.000]  p=1.0000
+  blind_n1/mlp - physics/intact_ac          test_seen      serious_false_alarm+0.000 [+0.000, +0.000]  p=1.0000
+  blind_n1/mlp - physics/intact_ac          test_seen      rank_V         -0.001 [-0.003, +0.001]  p=0.7760
+  blind_n1/mlp - physics/intact_ac          test_unseen    serious_recall +0.000 [+0.000, +0.000]  p=1.0000
+  blind_n1/mlp - physics/intact_ac          test_unseen    serious_false_alarm+0.000 [+0.000, +0.000]  p=1.0000
+  blind_n1/mlp - physics/intact_ac          test_unseen    rank_V         +0.000 [+0.000, +0.000]  p=0.7610
+  hybrid_n1/mlp - physics/fdlf1             test_seen      serious_recall +0.085 [+0.030, +0.159]  p<0.0005
+  hybrid_n1/mlp - physics/fdlf1             test_seen      serious_false_alarm+0.139 [+0.109, +0.176]  p<0.0005
+  hybrid_n1/mlp - physics/fdlf1             test_seen      rank_V         +0.185 [+0.159, +0.209]  p<0.0005
+  hybrid_n1/mlp - physics/fdlf1             test_unseen    serious_recall +0.050 [+0.014, +0.094]  p=0.0010
+  hybrid_n1/mlp - physics/fdlf1             test_unseen    serious_false_alarm+0.140 [+0.110, +0.178]  p<0.0005
+  hybrid_n1/mlp - physics/fdlf1             test_unseen    rank_V         +0.064 [+0.036, +0.089]  p<0.0005
+  hybrid_n1/linear - physics/fdlf1          test_seen      serious_recall +0.061 [+0.019, +0.120]  p<0.0005
+  hybrid_n1/linear - physics/fdlf1          test_seen      serious_false_alarm-0.001 [-0.004, +0.001]  p=0.2040
+  hybrid_n1/linear - physics/fdlf1          test_seen      rank_V         +0.196 [+0.174, +0.213]  p<0.0005
+  hybrid_n1/linear - physics/fdlf1          test_unseen    serious_recall +0.009 [-0.006, +0.032]  p=0.4220
+  hybrid_n1/linear - physics/fdlf1          test_unseen    serious_false_alarm+0.002 [-0.001, +0.006]  p=0.2550
+  hybrid_n1/linear - physics/fdlf1          test_unseen    rank_V         +0.077 [+0.057, +0.093]  p<0.0005
+  hybrid_n1/mlp - hybrid_n1/linear          test_seen      serious_recall +0.023 [+0.004, +0.050]  p=0.0020
+  hybrid_n1/mlp - hybrid_n1/linear          test_seen      serious_false_alarm+0.141 [+0.111, +0.178]  p<0.0005
+  hybrid_n1/mlp - hybrid_n1/linear          test_seen      rank_V         -0.011 [-0.023, +0.001]  p=0.0660
+  hybrid_n1/mlp - hybrid_n1/linear          test_unseen    serious_recall +0.040 [+0.011, +0.080]  p=0.0020
+  hybrid_n1/mlp - hybrid_n1/linear          test_unseen    serious_false_alarm+0.138 [+0.109, +0.176]  p<0.0005
+  hybrid_n1/mlp - hybrid_n1/linear          test_unseen    rank_V         -0.012 [-0.025, -0.001]  p=0.0390
+  hybrid_n1/mlp - status_n1/mlp             test_seen      serious_recall +0.136 [+0.075, +0.214]  p<0.0005
+  hybrid_n1/mlp - status_n1/mlp             test_seen      serious_false_alarm+0.139 [+0.108, +0.176]  p<0.0005
+  hybrid_n1/mlp - status_n1/mlp             test_seen      rank_V         -0.128 [-0.146, -0.107]  p<0.0005
+  hybrid_n1/mlp - status_n1/mlp             test_unseen    serious_recall +0.950 [+0.906, +0.983]  p<0.0005
+  hybrid_n1/mlp - status_n1/mlp             test_unseen    serious_false_alarm+0.143 [+0.113, +0.180]  p<0.0005
+  hybrid_n1/mlp - status_n1/mlp             test_unseen    rank_V         +0.712 [+0.689, +0.732]  p<0.0005
+  hybridv_n1/mlp - physics/fdlf1            test_seen      serious_recall +0.088 [+0.031, +0.162]  p<0.0005
+  hybridv_n1/mlp - physics/fdlf1            test_seen      serious_false_alarm+0.169 [+0.130, +0.217]  p<0.0005
+  hybridv_n1/mlp - physics/fdlf1            test_seen      rank_V         +0.193 [+0.165, +0.215]  p<0.0005
+  hybridv_n1/mlp - physics/fdlf1            test_unseen    serious_recall +0.060 [+0.016, +0.121]  p=0.0010
+  hybridv_n1/mlp - physics/fdlf1            test_unseen    serious_false_alarm+0.161 [+0.122, +0.212]  p<0.0005
+  hybridv_n1/mlp - physics/fdlf1            test_unseen    rank_V         +0.091 [+0.060, +0.118]  p<0.0005
+  hybridv_n1/linear - physics/fdlf1         test_seen      serious_recall +0.052 [+0.013, +0.104]  p=0.0010
+  hybridv_n1/linear - physics/fdlf1         test_seen      serious_false_alarm-0.001 [-0.003, +0.001]  p=0.3700
+  hybridv_n1/linear - physics/fdlf1         test_seen      rank_V         +0.187 [+0.166, +0.204]  p<0.0005
+  hybridv_n1/linear - physics/fdlf1         test_unseen    serious_recall +0.009 [+0.000, +0.029]  p=0.3660
+  hybridv_n1/linear - physics/fdlf1         test_unseen    serious_false_alarm-0.000 [-0.002, +0.001]  p=0.8060
+  hybridv_n1/linear - physics/fdlf1         test_unseen    rank_V         +0.090 [+0.071, +0.107]  p<0.0005
+  hybridv_n1/mlp - hybrid_n1/mlp            test_seen      serious_recall +0.003 [-0.004, +0.011]  p=0.2850
+  hybridv_n1/mlp - hybrid_n1/mlp            test_seen      serious_false_alarm+0.029 [+0.006, +0.054]  p=0.0150
+  hybridv_n1/mlp - hybrid_n1/mlp            test_seen      rank_V         +0.008 [-0.002, +0.018]  p=0.1110
+  hybridv_n1/mlp - hybrid_n1/mlp            test_unseen    serious_recall +0.011 [-0.008, +0.037]  p=0.3290
+  hybridv_n1/mlp - hybrid_n1/mlp            test_unseen    serious_false_alarm+0.022 [-0.005, +0.050]  p=0.1130
+  hybridv_n1/mlp - hybrid_n1/mlp            test_unseen    rank_V         +0.027 [+0.014, +0.040]  p<0.0005
+  hybridv_n1/linear - hybridv_n1/mlp        test_seen      serious_recall -0.036 [-0.072, -0.010]  p=0.0010
+  hybridv_n1/linear - hybridv_n1/mlp        test_seen      serious_false_alarm-0.169 [-0.218, -0.131]  p<0.0005
+  hybridv_n1/linear - hybridv_n1/mlp        test_seen      rank_V         -0.006 [-0.019, +0.008]  p=0.3940
+  hybridv_n1/linear - hybridv_n1/mlp        test_unseen    serious_recall -0.051 [-0.105, -0.012]  p=0.0010
+  hybridv_n1/linear - hybridv_n1/mlp        test_unseen    serious_false_alarm-0.162 [-0.212, -0.123]  p<0.0005
+  hybridv_n1/linear - hybridv_n1/mlp        test_unseen    rank_V         -0.001 [-0.016, +0.016]  p=0.8900
+  hybridv_n1/linear - hybrid_n1/mlp         test_seen      serious_recall -0.032 [-0.066, -0.008]  p=0.0010
+  hybridv_n1/linear - hybrid_n1/mlp         test_seen      serious_false_alarm-0.140 [-0.177, -0.110]  p<0.0005
+  hybridv_n1/linear - hybrid_n1/mlp         test_seen      rank_V         +0.002 [-0.011, +0.015]  p=0.7060
+  hybridv_n1/linear - hybrid_n1/mlp         test_unseen    serious_recall -0.040 [-0.080, -0.011]  p=0.0030
+  hybridv_n1/linear - hybrid_n1/mlp         test_unseen    serious_false_alarm-0.140 [-0.178, -0.110]  p<0.0005
+  hybridv_n1/linear - hybrid_n1/mlp         test_unseen    rank_V         +0.026 [+0.014, +0.039]  p<0.0005
+  gnn_n1/gnn - status_n1/mlp                test_seen      serious_recall -0.450 [-0.522, -0.369]  p<0.0005
+  gnn_n1/gnn - status_n1/mlp                test_seen      serious_false_alarm+0.055 [+0.045, +0.067]  p<0.0005
+  gnn_n1/gnn - status_n1/mlp                test_seen      rank_V         -0.905 [-0.923, -0.882]  p<0.0005
+  gnn_n1/gnn - status_n1/mlp                test_unseen    serious_recall +0.287 [+0.196, +0.386]  p<0.0005
+  gnn_n1/gnn - status_n1/mlp                test_unseen    serious_false_alarm+0.089 [+0.074, +0.105]  p<0.0005
+  gnn_n1/gnn - status_n1/mlp                test_unseen    rank_V         +0.020 [-0.003, +0.054]  p=0.1190
+  gnn_n1/gnn - physics/fdlf1                test_seen      serious_recall -0.502 [-0.581, -0.416]  p<0.0005
+  gnn_n1/gnn - physics/fdlf1                test_seen      serious_false_alarm+0.056 [+0.045, +0.068]  p<0.0005
+  gnn_n1/gnn - physics/fdlf1                test_seen      rank_V         -0.593 [-0.607, -0.578]  p<0.0005
+  gnn_n1/gnn - physics/fdlf1                test_unseen    serious_recall -0.613 [-0.715, -0.506]  p<0.0005
+  gnn_n1/gnn - physics/fdlf1                test_unseen    serious_false_alarm+0.086 [+0.070, +0.102]  p<0.0005
+  gnn_n1/gnn - physics/fdlf1                test_unseen    rank_V         -0.627 [-0.651, -0.598]  p<0.0005
+  hybridv_n1/linear - gnn_n1/gnn            test_seen      serious_recall +0.554 [+0.494, +0.615]  p<0.0005
+  hybridv_n1/linear - gnn_n1/gnn            test_seen      serious_false_alarm-0.057 [-0.069, -0.046]  p<0.0005
+  hybridv_n1/linear - gnn_n1/gnn            test_seen      rank_V         +0.780 [+0.761, +0.796]  p<0.0005
+  hybridv_n1/linear - gnn_n1/gnn            test_unseen    serious_recall +0.622 [+0.518, +0.723]  p<0.0005
+  hybridv_n1/linear - gnn_n1/gnn            test_unseen    serious_false_alarm-0.086 [-0.102, -0.071]  p<0.0005
+  hybridv_n1/linear - gnn_n1/gnn            test_unseen    rank_V         +0.718 [+0.683, +0.744]  p<0.0005
+  blind_intact/linear: seen - unseen        seen vs unseen serious_recall +0.000 [+0.000, +0.000]  p=1.0000
+  blind_intact/linear: seen - unseen        seen vs unseen serious_false_alarm+0.000 [+0.000, +0.000]  p=1.0000
+  blind_intact/linear: seen - unseen        seen vs unseen rank_V         +0.000 [+0.000, +0.000]  p=1.0000
+  blind_intact/mlp: seen - unseen           seen vs unseen serious_recall +0.000 [+0.000, +0.000]  p=1.0000
+  blind_intact/mlp: seen - unseen           seen vs unseen serious_false_alarm+0.000 [+0.000, +0.000]  p=1.0000
+  blind_intact/mlp: seen - unseen           seen vs unseen rank_V         +0.000 [+0.000, +0.000]  p=1.0000
+  blind_n1/linear: seen - unseen            seen vs unseen serious_recall +0.000 [+0.000, +0.000]  p=1.0000
+  blind_n1/linear: seen - unseen            seen vs unseen serious_false_alarm+0.000 [+0.000, +0.000]  p=1.0000
+  blind_n1/linear: seen - unseen            seen vs unseen rank_V         +0.000 [+0.000, +0.000]  p=1.0000
+  blind_n1/mlp: seen - unseen               seen vs unseen serious_recall +0.000 [+0.000, +0.000]  p=1.0000
+  blind_n1/mlp: seen - unseen               seen vs unseen serious_false_alarm+0.000 [+0.000, +0.000]  p=1.0000
+  blind_n1/mlp: seen - unseen               seen vs unseen rank_V         -0.001 [-0.004, +0.001]  p=0.7650
+  status_n1/linear: seen - unseen           seen vs unseen serious_recall +0.848 [+0.767, +0.914]  p<0.0005
+  status_n1/linear: seen - unseen           seen vs unseen serious_false_alarm+0.004 [+0.002, +0.006]  p<0.0005
+  status_n1/linear: seen - unseen           seen vs unseen rank_V         +0.962 [+0.946, +0.975]  p<0.0005
+  status_n1/mlp: seen - unseen              seen vs unseen serious_recall +0.848 [+0.767, +0.914]  p<0.0005
+  status_n1/mlp: seen - unseen              seen vs unseen serious_false_alarm+0.004 [+0.002, +0.006]  p<0.0005
+  status_n1/mlp: seen - unseen              seen vs unseen rank_V         +0.962 [+0.946, +0.975]  p<0.0005
+  hybrid_n1/linear: seen - unseen           seen vs unseen serious_recall +0.052 [+0.015, +0.104]  p=0.0010
+  hybrid_n1/linear: seen - unseen           seen vs unseen serious_false_alarm-0.003 [-0.007, -0.000]  p=0.0110
+  hybrid_n1/linear: seen - unseen           seen vs unseen rank_V         +0.121 [+0.115, +0.127]  p<0.0005
+  hybrid_n1/mlp: seen - unseen              seen vs unseen serious_recall +0.035 [+0.009, +0.074]  p=0.0050
+  hybrid_n1/mlp: seen - unseen              seen vs unseen serious_false_alarm-0.001 [-0.014, +0.013]  p=0.9030
+  hybrid_n1/mlp: seen - unseen              seen vs unseen rank_V         +0.122 [+0.115, +0.129]  p<0.0005
+  hybridv_n1/linear: seen - unseen          seen vs unseen serious_recall +0.043 [+0.010, +0.090]  p=0.0020
+  hybridv_n1/linear: seen - unseen          seen vs unseen serious_false_alarm-0.001 [-0.002, +0.000]  p=0.3710
+  hybridv_n1/linear: seen - unseen          seen vs unseen rank_V         +0.098 [+0.093, +0.103]  p<0.0005
+  hybridv_n1/mlp: seen - unseen             seen vs unseen serious_recall +0.028 [+0.007, +0.055]  p=0.0020
+  hybridv_n1/mlp: seen - unseen             seen vs unseen serious_false_alarm+0.007 [-0.005, +0.019]  p=0.2550
+  hybridv_n1/mlp: seen - unseen             seen vs unseen rank_V         +0.103 [+0.096, +0.110]  p<0.0005
+  gnn_n1/gnn: seen - unseen                 seen vs unseen serious_recall +0.111 [+0.000, +0.215]  p=0.0490
+  gnn_n1/gnn: seen - unseen                 seen vs unseen serious_false_alarm-0.030 [-0.044, -0.016]  p<0.0005
+  gnn_n1/gnn: seen - unseen                 seen vs unseen rank_V         +0.036 [+0.014, +0.055]  p=0.0030
+  physics/intact_ac: seen - unseen          seen vs unseen serious_recall +0.000 [+0.000, +0.000]  p=1.0000
+  physics/intact_ac: seen - unseen          seen vs unseen serious_false_alarm+0.000 [+0.000, +0.000]  p=1.0000
+  physics/intact_ac: seen - unseen          seen vs unseen rank_V         +0.000 [+0.000, +0.000]  p=1.0000
+  physics/dc: seen - unseen                 seen vs unseen serious_recall +0.000 [+0.000, +0.000]  p=1.0000
+  physics/dc: seen - unseen                 seen vs unseen serious_false_alarm+0.000 [+0.000, +0.000]  p=1.0000
+  physics/dc: seen - unseen                 seen vs unseen rank_V         +0.000 [+0.000, +0.000]  p=1.0000
+  physics/dc_inc: seen - unseen             seen vs unseen serious_recall +0.000 [+0.000, +0.000]  p=1.0000
+  physics/dc_inc: seen - unseen             seen vs unseen serious_false_alarm+0.000 [+0.000, +0.000]  p=1.0000
+  physics/dc_inc: seen - unseen             seen vs unseen rank_V         +0.000 [+0.000, +0.000]  p=1.0000
+  physics/fdlf1: seen - unseen              seen vs unseen serious_recall +0.000 [+0.000, +0.000]  p=1.0000
+  physics/fdlf1: seen - unseen              seen vs unseen serious_false_alarm+0.000 [+0.000, +0.000]  p=1.0000
+  physics/fdlf1: seen - unseen              seen vs unseen rank_V         +0.001 [+0.000, +0.002]  p=0.0210
+
+Saved results/stats_ci.csv, results/stats_variance.csv, results/stats_paired.csv

@@ -1,0 +1,8 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+data/parts/
+data/pilot/
+data/pilot*
+*.log
